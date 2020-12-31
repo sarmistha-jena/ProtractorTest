@@ -2,13 +2,17 @@
   "name": "protractortest",
   "version": "1.0.0",
   "description": "Testing with Protractor- javascript",
-  "main": "index.js",
+  "main": "conf.js",
   "dependencies": {
-    "protractor": "^5.4.3",
     "jasmine": "^3.6.3",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine2-protractor-utils": "^1.3.0",
+    "protractor": "^5.4.3",
+    "protractor-html-reporter-2": "^1.0.4",
     "winston": "^3.3.3"
   },
   "scripts": {
+    "protractortest": "protractor conf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
