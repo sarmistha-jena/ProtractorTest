@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="7.12">
- <testsuite name="Bank Home page Test" timestamp="2020-12-31T16:38:08" hostname="localhost" time="7.12" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Bank Home page Test" name="verify the page title" time="7.118" />
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="7.218">
+ <testsuite name="Bank Home page Test" timestamp="2020-12-31T21:28:08" hostname="localhost" time="7.218" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bank Home page Test" name="verify the page title" time="6.759" />
+  <testcase classname="Bank Home page Test" name="verify the buttons" time="0.457" />
  </testsuite>
 </testsuites>

@@ -16,7 +16,7 @@ exports.config = {
 
   plugins: [{
     package: 'jasmine2-protractor-utils',
-    disableHTMLReport: true,
+    disableHTMLReport: false,
     disableScreenshot: false,
     screenshotPath:'./screenshots',
     screenshotOnExpectFailure:false,
@@ -26,7 +26,7 @@ exports.config = {
 
   onPrepare: function () {
 
-    browser.ignoreSynchronization = true;
+   // browser.ignoreSynchronization = true;
     browser.driver.manage().window().maximize();
 
     //
@@ -60,6 +60,11 @@ exports.config = {
         testPlatform: platform
       };
       new HTMLReport().from('xmlresults.xml', testConfig);
+      console.log("Sending Mail with reports for the test execution.");
+        var sys = require('util')
+        var exec = require('child_process').exec;
+        function puts(error, stdout, stderr) { sys.puts(stdout) }
+        exec("node mail.js", puts);
     });
   }
 
