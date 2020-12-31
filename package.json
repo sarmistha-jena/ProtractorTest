@@ -1,0 +1,24 @@
+{
+  "name": "protractortest",
+  "version": "1.0.0",
+  "description": "Testing with Protractor- javascript",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "^5.4.3",
+    "jasmine": "^3.6.3",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarmistha-jena/ProtractorTest.git"
+  },
+  "author": "sarmistha-jena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarmistha-jena/ProtractorTest/issues"
+  },
+  "homepage": "https://github.com/sarmistha-jena/ProtractorTest#readme"
+}
